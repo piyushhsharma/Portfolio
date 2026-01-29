@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -33,21 +33,40 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-name">
-                <span class="text-reveal">Piyush</span>
-                <span class="text-reveal">Sharma</span>
-            </h1>
-            <p class="hero-tagline text-reveal">Web Developer | Frontend & Full-Stack Projects</p>
-            <p class="hero-subtext text-reveal">I build responsive, scalable, and accessible web applications.</p>
-            <div class="hero-buttons text-reveal">
-                <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="https://github.com/piyushhsharma" target="_blank" class="btn btn-secondary">GitHub</a>
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <h1 class="hero-name">
+                    <span class="name-first">Piyush</span>
+                    <span class="name-last">Sharma</span>
+                </h1>
+                <p class="hero-role">Machine Learning & DevOps | Web Accessibility</p>
+                <p class="hero-intro">Building accessible, performant web platforms and CI/CD for cloud-native apps. Currently focused on accessibility tooling, cloud automation, and ML pipelines.</p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary">Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact</a>
+                    <a href="assets/images/profile.png" target="_blank" class="btn btn-outline">View Resume</a>
+                </div>
             </div>
+            <aside class="hero-right">
+                <div class="card contact-card">
+                    <h3 class="card-name">Piyush Sharma</h3>
+                    <p class="card-meta">Jaipur, Rajasthan</p>
+                    <div class="contact-list">
+                        <a href="https://github.com/piyushhsharma" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/piyushhsharma" target="_blank">LinkedIn</a>
+                    </div>
+                    <ul class="mini-stats">
+                        <li><strong>Education:</strong> Manipal University, Jaipur (B.Tech IT)</li>
+                        <li><strong>Experience:</strong> DevOps & ML internships (2023-2025)</li>
+                    </ul>
+                    <a href="#projects" class="btn btn-block">See Projects</a>
+                </div>
+            </aside>
         </div>
-        <div class="hero-scroll">
-            <span>Scroll</span>
-            <div class="scroll-line"></div>
+        <div class="social-fixed">
+            <a href="https://github.com/piyushhsharma" target="_blank">GH</a>
+            <a href="https://linkedin.com/in/piyushhsharma" target="_blank">in</a>
+            <a href="#contact">&#9993;</a>
         </div>
     </section>
 
@@ -268,6 +287,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>

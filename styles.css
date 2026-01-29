@@ -3,6 +3,7 @@
     --primary-color: #000000;
     --secondary-color: #ffffff;
     --accent-color: #0066ff;
+    --accent-2: #1f2937;
     --text-primary: #000000;
     --text-secondary: #666666;
     --text-light: #999999;
@@ -11,6 +12,7 @@
     --border-color: #e0e0e0;
     --max-width: 1200px;
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: 'Playfair Display', serif;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -125,6 +127,90 @@ body {
     justify-content: center;
     position: relative;
     background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+}
+
+/* New hero grid to mimic target layout */
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 40px;
+    align-items: start;
+    padding: 80px 20px;
+}
+
+.hero-left {
+    text-align: left;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-name {
+    font-family: var(--font-heading);
+    font-size: clamp(48px, 8vw, 96px);
+    font-weight: 700;
+    line-height: 0.95;
+    margin-bottom: 12px;
+    color: var(--accent-2);
+}
+
+.hero-name .name-first { display: block; }
+.hero-name .name-last { display: block; }
+
+.hero-role {
+    font-size: 18px;
+    color: var(--text-secondary);
+    margin-bottom: 18px;
+}
+
+.hero-intro {
+    color: var(--text-secondary);
+    max-width: 55ch;
+    margin-bottom: 24px;
+}
+
+.contact-card {
+    background: linear-gradient(180deg, #ffffff, #fbfbfb);
+    border-radius: 12px;
+    padding: 22px;
+    width: 100%;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+}
+
+.card-name { font-weight: 700; margin-bottom: 6px; }
+.card-meta { color: var(--text-light); margin-bottom: 12px; }
+.contact-list a { display: inline-block; margin-right: 12px; color: var(--accent-color); text-decoration: none; }
+.mini-stats { margin: 12px 0 18px; padding-left: 18px; color: var(--text-secondary); }
+.mini-stats li { margin-bottom: 8px; font-size: 14px; }
+
+.btn-outline { border: 1px solid var(--border-color); background: transparent; color: var(--accent-2); }
+.btn-block { display: block; width: 100%; text-align: center; margin-top: 8px; }
+
+.social-fixed {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 1200;
+}
+
+.social-fixed a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: var(--bg-primary);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    color: var(--accent-2);
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .hero-content {

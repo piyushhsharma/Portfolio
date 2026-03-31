@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush Sharma - Web Developer</title>
-    <meta name="description" content="Piyush Sharma - Web Developer specializing in frontend development, React.js, Shopify theme customization, and full-stack projects.">
+    
+    <!-- UPDATED TITLE + META -->
+    <title>Piyush Sharma | Full Stack & DevOps Engineer</title>
+    <meta name="description" content="Piyush Sharma - Full Stack & DevOps Engineer helping startups build, deploy and scale applications using AWS, Docker, CI/CD, and modern web technologies.">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
@@ -34,35 +38,58 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container hero-grid">
+
+            <!-- LEFT -->
             <div class="hero-left">
                 <h1 class="hero-name">
                     <span class="name-first">Piyush</span>
                     <span class="name-last">Sharma</span>
                 </h1>
-                <p class="hero-role">Machine Learning & DevOps | Web Accessibility</p>
-                <p class="hero-intro">Building accessible, performant web platforms and CI/CD for cloud-native apps. Currently focused on accessibility tooling, cloud automation, and ML pipelines.</p>
+
+                <!-- UPDATED ROLE -->
+                <p class="hero-role">Full Stack & DevOps Engineer | AWS • Docker • CI/CD</p>
+
+                <!-- UPDATED INTRO -->
+                <p class="hero-intro">
+                    I help startups and businesses build, deploy, and scale scalable web applications using modern full stack and cloud technologies. 
+                    Experienced in building AI-powered tools, real-time systems, and automated CI/CD pipelines for production-ready applications.
+                </p>
+
+                <!-- UPDATED CTA -->
                 <div class="hero-ctas">
-                    <a href="#projects" class="btn btn-primary">Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Contact</a>
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
                     <a href="assets/images/profile.png" target="_blank" class="btn btn-outline">View Resume</a>
                 </div>
             </div>
+
+            <!-- RIGHT -->
             <aside class="hero-right">
                 <div class="card contact-card">
                     <h3 class="card-name">Piyush Sharma</h3>
-                    <p class="card-meta">Jaipur, Rajasthan</p>
+
+                    <!-- UPDATED -->
+                    <p class="card-meta">Available for Freelance | Jaipur, Rajasthan</p>
+
                     <div class="contact-list">
                         <a href="https://github.com/piyushhsharma" target="_blank">GitHub</a>
                         <a href="https://linkedin.com/in/piyushhsharma" target="_blank">LinkedIn</a>
                     </div>
+
                     <ul class="mini-stats">
                         <li><strong>Education:</strong> Manipal University, Jaipur (B.Tech IT)</li>
-                        <li><strong>Experience:</strong> DevOps & ML internships (2023-2025)</li>
+
+                        <!-- UPDATED -->
+                        <li><strong>Experience:</strong> Built real-world projects in DevOps, ML & Full Stack (2023-2025)</li>
                     </ul>
-                    <a href="#projects" class="btn btn-block">See Projects</a>
+
+                    <!-- UPDATED CTA -->
+                    <a href="#contact" class="btn btn-block">Start a Project</a>
                 </div>
             </aside>
+
         </div>
+
         <div class="social-fixed">
             <a href="https://github.com/piyushhsharma" target="_blank">GH</a>
             <a href="https://linkedin.com/in/piyushhsharma" target="_blank">in</a>
@@ -70,222 +97,264 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="image-placeholder">
-                        <img src="assets/images/profile.png" alt="Piyush Sharma">
-                    </div>
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">HTML5</div>
+                    <div class="skill-item">CSS3</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React.js</div>
+                    <div class="skill-item">Responsive Design</div>
+                    <div class="skill-item">Web Accessibility</div>
                 </div>
-                <div class="about-text">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="about-description">
-                        I'm a web developer focused on building clean, responsive, and user-friendly web applications. 
-                        I enjoy working with modern frontend frameworks and exploring backend technologies.
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">Go</div>
+                    <div class="skill-item">MongoDB</div>
+                    <div class="skill-item">REST APIs</div>
+                    <div class="skill-item">Git & GitHub</div>
+                </div>
+            </div>
+
+            <!-- NEW (VERY IMPORTANT) -->
+            <div class="skill-category">
+                <h3>DevOps & Cloud</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">CI/CD (GitHub Actions)</div>
+                    <div class="skill-item">AWS (EC2, Deployment)</div>
+                    <div class="skill-item">Cloud Deployment</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Accessibility Analyzer</h3>
+
+                    <p class="project-description">
+                        <strong>Problem:</strong> Many websites fail accessibility standards, leading to poor user experience and compliance issues.
+                        <br><br>
+                        <strong>Solution:</strong> Built a web accessibility analyzer that scans websites and identifies WCAG violations with actionable insights.
+                        <br><br>
+                        <strong>Impact:</strong> Helps developers improve usability, accessibility compliance, and overall user experience.
                     </p>
-                    <p class="about-description">
-                        Currently working on an Accessibility Analyzer project using Go and MongoDB, 
-                        I'm passionate about creating inclusive digital experiences and writing efficient, maintainable code.
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+
+                    <a href="https://github.com/piyushhsharma/accessibility-analyzer" target="_blank" class="project-link">
+                        View on GitHub →
+                    </a>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">KR Meditech – Diagnostic Equipment Website</h3>
+
+                    <p class="project-description">
+                        <strong>Problem:</strong> The business needed a clean and responsive web presence to showcase diagnostic equipment effectively.
+                        <br><br>
+                        <strong>Solution:</strong> Developed a responsive frontend website with optimized layout, usability, and performance.
+                        <br><br>
+                        <strong>Impact:</strong> Improved online presence and user engagement with a fast, accessible, and modern interface.
+                    </p>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub Pages</span>      
+                    </div>
+
+                    <a href="https://github.com/piyushhsharma/KRMEDITECH"
+                        target="_blank"
+                        class="project-link">
+                        Source Code →
+                    </a>
+                    <br>
+                    <a href="https://piyushhsharma.github.io/KRMEDITECH/"
+                        target="_blank"
+                        class="project-link">
+                        Live Demo →
+                    </a>
+                </div>
+            </div>
+                <!-- PROJECT 3 -->
+<div class="project-card">
+    <div class="project-content">
+        <h3 class="project-title">Shopify UI Customization</h3>
+
+        <p class="project-description">
+            <strong>Problem:</strong> E-commerce stores often suffer from poor UI/UX leading to lower engagement and conversions.
+            <br><br>
+            <strong>Solution:</strong> Customized Shopify themes using Liquid, JavaScript, and CSS to enhance usability and visual design.
+            <br><br>
+            <strong>Impact:</strong> Improved user experience and optimized layout for better engagement and conversion rates.
+        </p>
+
+        <div class="project-tech">
+            <span class="tech-tag">Shopify</span>
+            <span class="tech-tag">Liquid</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">CSS3</span>
+        </div>
+
+        <a href="https://github.com/piyushhsharma/shopify-customization"
+            target="_blank"
+            class="project-link">
+            Source Code →
+        </a>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Full Stack & DevOps Projects</h3>
+                    <p>
+                        Built and deployed scalable web applications with focus on performance, accessibility, and cloud deployment.
+                        Worked on CI/CD pipelines, automation, and real-world system design.
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">HTML5</div>
-                        <div class="skill-item">CSS3</div>
-                        <div class="skill-item">JavaScript</div>
-                        <div class="skill-item">React.js</div>
-                        <div class="skill-item">Responsive Design</div>
-                        <div class="skill-item">Accessibility</div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Backend & Tools</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">Go</div>
-                        <div class="skill-item">Node.js</div>
-                        <div class="skill-item">MongoDB</div>
-                        <div class="skill-item">Git & GitHub</div>
-                        <div class="skill-item">Shopify</div>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Frontend & System Development</h3>
+                    <p>
+                        Developed responsive web applications using React.js and modern CSS.
+                        Focused on building clean UI, improving performance, and creating user-friendly interfaces.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Accessibility Analyzer</h3>
-                        <p class="project-description">
-                            A comprehensive web accessibility testing tool that analyzes websites for WCAG compliance 
-                            and provides actionable recommendations for improvement.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Go</span>
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">MongoDB</span>
-                        </div>
-                        <a href="https://github.com/piyushhsharma/accessibility-analyzer" target="_blank" class="project-link">
-                            View on GitHub →
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">KR Meditech – Diagnostic Equipment Distribution Website</h3>
-                        <p class="project-description">
-                            A responsive frontend project built for a diagnostic laboratory equipment
-                            distributor, emphasizing clean layout structure, performance, and usability.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">GitHub Pages</span>      
-                        </div>
-                        <a href="https://github.com/piyushhsharma/KRMEDITECH"
-                            target="_blank"
-                            class="project-link">
-                            Source Code →
-                        </a>
-                        <br>
-                        <a href="https://piyushhsharma.github.io/KRMEDITECH/"
-                            target="_blank"
-                            class="project-link">
-                            Live Demo →
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Shopify UI Customization</h3>
-                        <p class="project-description">
-                            Custom Shopify theme development and UI customization project enhancing user experience 
-                            and conversion rates for e-commerce stores.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Shopify</span>
-                            <span class="tech-tag">Liquid</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">CSS3</span>
-                        </div>
-                        <a href="https://github.com/piyushhsharma/shopify-customization"
-                            target="_blank"
-                            class="project-link">
-                            Source Code →
-                        </a>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - 2023</div>
+                <div class="timeline-content">
+                    <h3>KR Meditech Website Development</h3>
+                    <p>
+                        Designed and developed a professional website for a diagnostic equipment distributor,
+                        improving their online presence and accessibility.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Experience & Learning</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2024 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Accessibility Analyzer Project</h3>
-                        <p>Building a comprehensive web accessibility testing tool using Go backend and React frontend</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2023 - 2024</div>
-                    <div class="timeline-content">
-                        <h3>Frontend Development Focus</h3>
-                        <p>Deepened expertise in React.js, modern CSS techniques, and responsive design principles</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>KR Meditech – Diagnostic Equipment Distribution Website</h3>
-                        <p>A professional website developed for a diagnostic laboratory equipment distributor.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Ongoing</div>
-                    <div class="timeline-content">
-                        <h3>Continuous Learning</h3>
-                        <p>Exploring backend technologies, accessibility standards, and modern web development practices</p>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Ongoing</div>
+                <div class="timeline-content">
+                    <h3>Continuous Learning & Optimization</h3>
+                    <p>
+                        Continuously improving skills in DevOps, cloud infrastructure, and scalable system design 
+                        to build production-ready applications.
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always interested in hearing about new projects and opportunities.</p>
-                    <div class="contact-links">
-                        <a href="https://github.com/piyushhsharma" target="_blank" class="contact-link">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                            </svg>
-                            GitHub
-                        </a>
-                        <a href="https://www.linkedin.com/in/piyush-sharma-553252248/" target="_blank" class="contact-link">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                            </svg>
-                            LinkedIn
-                        </a>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; Piyush Sharma</p>
-                <div class="footer-links">
-                    <a href="https://github.com/piyushhsharma" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/piyush-sharma-553252248/" target="_blank">LinkedIn</a>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Let’s Work Together</h2>
+
+        <div class="contact-content">
+
+            <div class="contact-info">
+                <h3>Available for Freelance Work 🚀</h3>
+
+                <p>
+                    I help startups and businesses build scalable web applications, optimize performance,
+                    and deploy reliable systems using modern full stack and DevOps practices.
+                </p>
+
+                <div class="contact-links">
+                    <a href="https://github.com/piyushhsharma" target="_blank" class="contact-link">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/piyush-sharma-553252248/" target="_blank" class="contact-link">
+                        LinkedIn
+                    </a>
                 </div>
             </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                </div>
+
+                <!-- UPDATED CTA -->
+                <button type="submit" class="btn btn-primary">Start a Project</button>
+            </form>
+
         </div>
-    </footer>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; Piyush Sharma | Full Stack & DevOps Engineer</p>
+
+            <div class="footer-links">
+                <a href="https://github.com/piyushhsharma" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/piyush-sharma-553252248/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
     <script src="scripts.js"></script>
 </body>
